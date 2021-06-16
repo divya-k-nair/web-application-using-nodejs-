@@ -6,7 +6,7 @@ y.get('/this',(req,res)=>{
 
 })
 y.get('/about',(req,res)=>{
-    res.send('good mrng')
+    res.send('good evening')
 
 })
 y.get('/read',(req,res)=>{
