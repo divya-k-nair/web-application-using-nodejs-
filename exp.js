@@ -6,11 +6,11 @@ y.get('/this',(req,res)=>{
 
 })
 y.get('/about',(req,res)=>{
-    res.send('good evening')
+    res.send("good evening")
 
 })
 y.get('/read',(req,res)=>{
-    res.send('welcome')
+    res.send("welcome")
 })
 y.listen(3000,()=>{
     console.log("server started at http://localhost:3000")
